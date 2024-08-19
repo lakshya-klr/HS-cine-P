@@ -1,7 +1,10 @@
 export default function App() {
   return (
-    <h1 className="text-center py-4 duration-200 ">
-      hey my name is harshit soni
-    </h1>
+    <div
+    id="menu"
+    className={`menu h-full bg-cyan-400 w-full absolute ${isMenuVisible ? "up" : ""}`}
+  >
+    Menu Content
+  </div>
   )
 }

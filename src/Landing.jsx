@@ -7,9 +7,9 @@ const Landing = () => {
       <source src="/cinematography/landing-video.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
-<div className=" capturinglife absolute w-auto text-8xl  text-right ">
-  CAPTURING<br></br>LIFE
-  <p className='text-4xl'>IN MOTION AND STILLNESS</p> 
+<div className=" capturinglife absolute w-auto text-9xl bold text-right ">
+  LIFE<br></br>CAPTURED
+  <p className='text-5xl'>-IN MOTION AND STILLNESS-</p> 
 </div>
 
   </div>

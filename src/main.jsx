@@ -4,13 +4,16 @@ import App from './App.jsx'
 import './index.css'
 import Landing from './Landing.jsx'
 import Nav from './Nav.jsx'
-import Okay from './Okay.jsx'
+import Menu from './Menu.jsx'
+import Secondpage from './Secondpage.jsx'
 
 createRoot(document.getElementById('root')).render(
   <>
+  
+  <Menu/>
     <Nav/>
 <Landing/>
-
+<Secondpage/>
 
     {/* <App /> */}
  {/* <Okay/> */}

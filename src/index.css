@@ -4,7 +4,8 @@
 @tailwind utilities;
 
 :root{
-    background-color: #eeebdd;
+    background-color: #1e1e1e;
+    cursor:crosshair;
 }
 
 .navlistitem{
@@ -33,9 +34,10 @@
     margin:auto;
     position: fixed;
     left:4%;
+    border:1px solid white;
     top:2%;
     border-radius: 16px;
-    z-index: 10;
+    z-index: 110;
     /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
 
 }
@@ -46,14 +48,38 @@
 color:white;
 right:4%;
 bottom:20%;
-text-shadow:black 0px 10px 10px; ;
+-webkit-text-stroke: 1px #1e1e1e;
+/* text-shadow:black 0px 50px 50px;  */
 
 }
 .landingpage video{
 object-fit: cover;
 }
 
-
+.menubutton{
+    display: none;
+    background-color: #1b1717;
+    color:#eeebdd;
+  
+}
+.menu {
+    z-index: 10;
+    transform: translateY(-100%);
+    transition: transform 1s; /* Ensure this is applied */
+    background-color: #eeebdd;
+    
+  }
+  
+.up{
+    transform: translateY(0%);
+    
+  }
+.menulistitem{
+    background-color: #1b1717;
+    color:#eeebdd;
+    text-align: center;
+    width: 100%;
+}
 @media only screen and (min-width: 600px) and (max-width: 1500px) {
     :root{
         background-color: red;
@@ -82,6 +108,14 @@ object-fit: cover;
     }
     .navbar ul{
         display: none;
+    }
+    .rightbox{
+        display: none;
+    }
+    .menubutton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .mobileimage{
         display: inline;
