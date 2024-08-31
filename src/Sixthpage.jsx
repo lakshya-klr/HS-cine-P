@@ -11,7 +11,7 @@ const Sixthpage = () => {
         <div className='polaroid  relative overflow-hidden p-5 pb-0'>
           
           <div className='imgwrapper object-cover '>
-            <img className='object-cover h-full w-full' src='public\images\cropped me.png'></img>
+            <img className='object-cover h-full w-full' src='/images/cropped me.png'></img>
         </div>
             <h2 className='polaroidtext style-script-regular'>Hey ! that's me</h2>
             

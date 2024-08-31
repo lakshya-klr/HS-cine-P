@@ -12,7 +12,7 @@ const FifthPage = () => {
 
                 <div className="phone relative overflow-hidden">
                     <div className="notch absolute"></div>
-                    <video className="h-full" src="/cinematography\fifthchild (1) (1) (1).mp4" autoPlay muted loop></video>
+                    <video className="h-full" src="/cinematography/fifthchild (1) (1) (1).mp4" autoPlay muted loop></video>
                 </div>
 
             </div>

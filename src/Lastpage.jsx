@@ -16,7 +16,7 @@ const Lastpage = () => {
 
       <div className="imgcont h-5/6 w-full">
 
-      <img className="h-full w-full" src="public\images\bannercopy.png" alt="" />
+      <img className="h-full w-full" src="/images/bannercopy.png" alt="" />
 
       </div>
 

@@ -50,7 +50,7 @@ const Secondpage = () => {
     </div>
     <div className='parent'>
       <div className='leftdiv'>
-          <img src="public\images\Open Peeps - Bust.png" alt="" />
+          <img src="/images/Open Peeps - Bust.png" alt="" />
       </div>
       <div className='rightdiv'>
 Currently looking for work.

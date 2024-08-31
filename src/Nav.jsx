@@ -22,7 +22,7 @@ const Nav = () => {
 
         className=' h-full w-20 rounded-full menubutton'
       >
-linktree
+<a href="https://linktr.ee/Harshitsonii10" target="_blank">Linktree</a>
 
       </div>
       <div className="rightbox right w-2/6">
