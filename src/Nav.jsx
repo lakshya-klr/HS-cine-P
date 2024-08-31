@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Pivot as Hamburger } from 'hamburger-react';
-import Menu from './Menu';
+// import { Pivot as Hamburger } from 'hamburger-react';
+// import Menu from './Menu';
 
 // const [isOpen, setOpen] = useState(false)
 
@@ -8,12 +8,7 @@ import Menu from './Menu';
 
 
 const Nav = () => {
-  const [isMenuVisible, setIsMenuVisible] = useState(false);
 
-  const handleMenuButtonClick = () => {
-    setIsMenuVisible(prevState => !prevState);
-    console.log("Menu button clicked. Menu visibility:", !isMenuVisible);
-  };
 
   return (
 <>
@@ -24,34 +19,24 @@ const Nav = () => {
         <img className="h-full mobileimage" src="/images/initials.png" alt="Initials" />
       </div>
       <div
-        onClick={handleMenuButtonClick}
+
         className=' h-full w-20 rounded-full menubutton'
       >
-MENU
+linktree
 
       </div>
       <div className="rightbox right w-2/6">
         <ul className='flex h-full justify-between'>
-          <li className='h-full flex justify-center items-center navlistitem'>HOME</li>
-          <li className='h-full flex justify-center items-center navlistitem'>ABOUT</li>
-          <li className='h-full flex justify-center items-center navlistitem'>WORK</li>
-          <li className='h-full flex justify-center items-center navlistitem'>CONTACT</li>
+          <li className='h-full flex justify-center items-center navlistitem'><a href="https://linktr.ee/Harshitsonii10" target="_blank">Linktree</a></li>
+          <li className='h-full flex justify-center items-center navlistitem'><a href="https://www.instagram.com/harshit_soni_10?igsh=anl2OWxjZDlzZTNl&utm_source=qr" target="_blank">Instagram</a></li>
+          <li className='h-full flex justify-center items-center navlistitem'><a href="https://www.linkedin.com/in/harshit-soni-797923280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">LinkedIn</a></li>
+          <li className='h-full flex justify-center items-center navlistitem'><a href="https://youtube.com/@harshitsoni2745?si=uDxExMyHDotAVqcA" target="_blank">Youtube</a></li>
         </ul>
       </div>
      
     </div>
-     <div
-     id="menu"
-     className={`menu h-full  flex justify-center items-center w-full absolute ${isMenuVisible ? "up" : ""}`}>
-     <div className='w-3/4'>
-      <ul>
-        <li className='menulistitem text-xl font-bold  p-4 rounded-xl mb-4 '>HOME</li>
-        <li className='menulistitem text-xl font-bold  p-4 rounded-xl mb-4 '>CONTACT</li>
-        <li className='menulistitem text-xl font-bold  p-4 rounded-xl mb-4 '>ABOUT</li>
-        <li className='menulistitem text-xl font-bold  p-4 rounded-xl mb-4 '>WORK</li>
-      </ul>
-     </div>
-   </div></>
+    
+   </> 
   );
 };
 

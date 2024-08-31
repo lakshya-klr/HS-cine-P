@@ -2,7 +2,7 @@ import React from 'react'
 
 const Menu = () => {
   return (
-    <div id="menu" className='h-full down w-full absolute '></div>
+    <div id="menu" className=' down w-full min-h-full absolute'></div>
   )
 }
 
