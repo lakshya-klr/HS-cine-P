@@ -15,7 +15,7 @@ const Secondpage = () => {
         <div className='bigparent'>
     <div className='parent'>
       <div className='leftdiv'>
-          <div className='leftdivup'>40+</div>
+          <div className='leftdivup'>80+</div>
           <div className='leftdivdown'>MILLION</div>
       </div>
       <div className='rightdiv'>
@@ -37,13 +37,13 @@ const Secondpage = () => {
     </div>
     </div>
     <div className='bigparent'>
-    <div className='parent'>
-      <div className='leftdiv'>
+    <div className='parent' title="Final Cut Pro, Davinci Resolve, Adobe Premier Pro, Lightroom, Adobe Photoshop, Capcut, VN, Power Director, Kine Master, Canva, Picsart, Filmora Go, IMovie">
+      <div className='leftdiv' title="">
           <div className='leftdivup'>10+</div>
           <div className='leftdivdown'>TOOLS</div>
       </div>
       <div className='rightdiv'>
-         Matered throught his journey of capturing life
+         Mastered through out this journey of capturing life
       </div>
 
 

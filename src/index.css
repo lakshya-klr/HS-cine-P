@@ -501,6 +501,9 @@ background-color: #eeebdd;
     color: #eeebdd;
     animation: gradient 15s ease infinite;
 }
+.leftdivup{
+    letter-spacing: 2px;
+}
 
 @keyframes gradient {
 	0% {
