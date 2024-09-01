@@ -383,6 +383,30 @@ background-color: #eeebdd;
 .footer ul li{
     font-size: 3vh;
 }
+
+.rightthree a{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,54,1) 0%, rgba(0,212,255,1) 100%);
+    padding:5px;
+    border-radius: 12px;
+    color: #eeebdd;
+    animation: gradient 15s ease infinite;
+}
+.leftdivup{
+    letter-spacing: 2px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 @media only screen and (min-width: 600px) and (max-width: 1500px) {
     :root{
         /* background-color: red; */
@@ -490,31 +514,10 @@ background-color: #eeebdd;
         margin-bottom: 0;
         line-height: 4vh;
     }
+    .navlistitem{
+        font-size: 1.2vh;
+    }
 
-
-}
-
-.rightthree a{
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,54,1) 0%, rgba(0,212,255,1) 100%);
-    padding:5px;
-    border-radius: 12px;
-    color: #eeebdd;
-    animation: gradient 15s ease infinite;
-}
-.leftdivup{
-    letter-spacing: 2px;
-}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
 }
 
 @media only screen and (min-width: 0px) and (max-width: 600px) {
