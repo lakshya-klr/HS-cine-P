@@ -27,7 +27,7 @@ const Lastpage = () => {
 
         <ul className=' zipzap w-3/4 m-auto rounded-3xl flex justify-center'>
  
-          <li className='m-4 p-2'><a href="https://linktr.ee/Harshitsonii10" target="_blank">Linktree</a></li>
+          <li className='m-4 p-2'><a href="https://linktr.ee/harshitsoni10" target="_blank">Linktree</a></li>
           <li className='m-4 p-2'><a href="https://www.instagram.com/harshit_soni_10?igsh=anl2OWxjZDlzZTNl&utm_source=qr" target="_blank">Instagram</a></li>
           <li className='m-4 p-2'><a href="https://www.linkedin.com/in/harshit-soni-797923280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">LinkedIn</a></li>
           <li className='m-4 highlight p-2 rounded-2xl' >
